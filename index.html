@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link href="https://fonts.googleapis.com/css?family=Farro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+  <div class="calculator">
+
+    <table>
+      <tr>
+    <input  id="display" class="display" name="display" disabled>
+      </tr>
+      <tr>
+        <td><button id="root" type="button"  onClick="root()">√</button></td>
+        <td><button id="power" type="button"  onClick="power()">x²</button></td>
+        <td><button id="refresh" type="button"  onclick="c()">с</button></td>
+        <td><button id="devide" type="button"  onClick="addNumber('/')">÷</button></td>
+      </tr>
+      <tr>
+        <td><button id="seven" type="button"  onClick="addNumber(7)">7</button></td>
+        <td><button id="eight" type="button" onClick="addNumber(8)">8</button></td>
+        <td><button id="nine" type="button" onClick="addNumber(9)">9</button></td>
+        <td><button id="times" type="button" onClick="addNumber('*')">x</button></td>
+      </tr>
+      <tr>
+        <td><button id="four" type="button" onClick="addNumber(4)">4</button></td>
+        <td><button id="five" type="button"  onClick="addNumber(5)">5</button></td>
+        <td><button id="six" type="button" onClick="addNumber(6)">6</button></td>
+        <td><button id="minus"type="button"  onClick="addNumber('-')">-</button></td>
+      </tr>
+      <tr>
+        <td><button id="one" type="button"  onClick="addNumber(1)">1</button></td>
+        <td><button id="two" type="button"  onClick="addNumber(2)">2</button></td>
+        <td><button id="three" type="button"  onClick="addNumber(3)">3</button></td>
+        <td><button id="plus" type="button"  onClick="addNumber('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button id="zero" type="button"  onClick="addNumber(0)" >0</button></td>
+        <td><button id="point" type="button"  onClick="addNumber('.')">.</button></td>
+        <td colspan="2"><button id="buttonEqual" class ="buttonEqual" onCLick="qualy()">=</button></td>
+
+      </tr>
+    </table>
+
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

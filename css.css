@@ -1,0 +1,42 @@
+body{
+  background-color: #ccafaf;
+
+}
+
+button:hover{
+background-color: #e8e1e1;
+ cursor: pointer;
+  box-shadow: 0 1px #999;
+}
+.calculator{
+  margin:5%;
+}
+.display{
+width:403px;
+height: 100px;
+background-color: #dbdbdb;
+border-radius: 1%;
+position: relative;
+left:3px;
+border:0px;
+font-size: 3rem;
+text-align: right;
+
+
+}
+button{
+width:98px;
+height:50px;
+background-color: grey;
+float: left;
+border-radius: 2%;
+border:0px solid black;
+margin-left: 0px;
+font-size:1.5rem;
+font-family: 'Farro', sans-serif;
+outline: none;
+
+}
+.buttonEqual{
+  width:200px;
+}
